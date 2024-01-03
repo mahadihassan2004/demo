@@ -1,0 +1,198 @@
+h1{
+   align-items: center;
+   color: #0866FF;
+   font-size:50px;
+   font-family: 'Kanit', sans-serif;
+   letter-spacing: 20px;
+   text-shadow: 3px 3px 10px black;
+
+   display: inline;
+
+}
+.t{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+fieldset{
+    height: 400px;
+    
+    text-align: center;
+float: right;
+margin-right: 200px;
+border-radius: 20px;
+border: 2px solid rgb(218, 216, 216);
+background-color: transparent;
+backdrop-filter: blur(10px) ;
+margin-top: -150px;
+
+
+
+
+
+}
+
+
+.f{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    
+display: inline-flex;
+
+
+
+}
+
+.b{
+    width: 180px;
+    height: 33px;
+    border-radius: 10px;
+    border: 2px solid #bdb9b9 ;
+    background-color: #9D29FE;
+    
+    
+}
+.b a{
+    text-decoration: none;
+}
+
+input{
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid #bdb9b9 ;
+    
+    
+}
+
+.i{
+    margin-top: 30px;
+    
+}
+.a1{
+  text-decoration: none;
+  color: #9D29FE;
+}
+p{
+    text-shadow: 2px 2px 4px;
+}
+
+button{ 
+    width: 180px;
+    height: 33px;
+    border-radius: 10px;
+    background-color: rgb(249, 249, 250);
+    border: 2px solid rgb(180, 178, 178);
+}
+
+a{
+    color: aliceblue;
+}
+
+
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+  
+    
+}
+
+.pass{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 2px;
+}
+
+
+input:hover{
+    background-color: rgb(175, 173, 173);
+    
+}
+
+
+.b a:hover{
+    color: #00C0DF;
+}
+
+.icon{
+    font-size: 50px;
+    margin-top: 280px;
+    margin-left: 80px;
+    letter-spacing: 30px;
+    display: inline-flex;
+}
+
+.facebook{
+    color: #0866FF;
+
+    text-shadow: 2px 2px 10px black;
+}
+
+.insta{
+    color: #FC00AE;
+    text-shadow: 2px 2px 10px black;
+}
+
+.yt{
+    color: red;
+    text-shadow: 2px 2px 10px black;
+}
+/*Desktop*/
+
+@media (min-width:1080px;){
+
+}
+
+/*Mobile view*/
+
+@media (max-hight:880){
+    
+}
+
+@media (max-width:420px){
+
+    fieldset{
+        margin: 100px auto;
+        
+        margin-right: 10%;
+        height: 400px;
+        background-color: transparent;
+        backdrop-filter: blur(10px) ;
+        
+        
+    }
+   
+    h1{
+        margin-top: -90px;
+        margin-left: -80px;
+        display: flex;
+
+    }
+
+    .icon{
+         margin-top: -40px;
+        font-size: 50px;
+        }
+
+body{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+
+}
+.f{
+    font-size: 30px;
+    margin-left: -80px;
+    margin-top: -5px;
+    position: relative;
+    
+}
+
+
+
+
+}
